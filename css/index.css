@@ -1,0 +1,37 @@
+*{
+	font-family: arial;
+	font-size: 17px;
+
+}
+.FormInfor{
+	width: 400px;
+	height: 300px;
+	margin:auto; 
+	margin-top: 10%;
+}
+form[name='FormIndex'] div{
+	padding: 10px;
+}
+
+form[name='FormIndex'] div span{
+	color: red;
+}
+
+form[name='FormIndex'] div input{
+	border-radius: 5px;
+	height: 20px;
+	width: 100%;
+}
+.text-danger{
+	color: red;
+}
+@media only screen and (max-width: 370px){
+	*{
+		font-size: 22px;
+		background: lightblue;
+	}
+	.FormIndor{
+		margin-top: 0;
+
+	}
+}
